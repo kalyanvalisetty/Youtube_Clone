@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vedio-name
+        {
+            color:black;
+            font-family:arial;
+            font-size:18px;
+            line-height: 25px;
+        }
+        .vedio-author{
+            color: grey;
+            font-family:arial;
+            margin-bottom: 10px;
+        }
+        .vedio-views,
+        .vedio-duration{
+            color: grey;
+            font-family:arial;
+            display:inline-block;
+            margin-top: 2px;
+        }
+        .thumbnail1{
+            width:100%;
+            border-radius: 6px;
+        }
+        .vedio{
+            display:grid;
+            grid-template-columns:300px ;
+        }
+        .vedio-info{
+            display:grid;
+            grid-template-columns:50px 1fr;
+            column-gap: 6px;;
+        }
+        .author-img
+        {
+            width: 75%;
+            margin-top: 20px;
+            
+        }
+        .yt{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+        .header
+        {
+            height: 70px;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .frst
+        {
+            display:flex;
+            width:200px;
+            align-items: center;
+            margin-right: 20px;;
+        }
+        .second
+        {
+            display:flex;
+            width: 400px;
+            align-items: center;
+        }
+        .third
+        {
+            display:flex;
+            width: 150px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo
+        {
+            height:25px;
+        }
+        .menu
+        {
+            height:35px;
+            margin-right: 15px;
+        }
+        .search
+        {
+            height:35px;
+            border-style: solid;
+
+            width: 300px;
+            border-radius: 1px;
+            border-color: rgb(128, 128, 128);
+        }
+        .search::placeholder{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+           padding-left: 10px;
+          
+        }
+        .search-icon{
+           width:30px;
+           margin-left: 8px;
+        }
+        .mic{
+            width:25px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" >
+        <div class="frst" >
+           <img class="menu"src="menu-icon.png" alt="">
+           <img  class="logo"src="yt logo.png" alt="">
+        </div>
+        <div class="second" >
+            <input class="search" type="text" placeholder="Search.. ">
+          <button style="  background-color: white; border: none;"> <img  class="search-icon"src="search-icon.png" alt=""></button> 
+        <button style="  background-color: white; border: none;">    <img  class="mic"src="mic-icon.png" alt=""></button> 
+        </div>
+        <div class="third">
+        <img style="width: 30px; height: 30px;" src="upload-icon.png" alt="">
+        <img  style="width: 25px; height: 25px;"src="bell-icon.png" alt="">
+        <img  style="width: 30px; height: 30px;" src="author1.jpeg" alt="">
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="yt">
+     <div class="vedio"><div >  
+        <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+    </div>
+    <div class="vedio-info">
+        <div >
+            <img class="author-img" src="author1.jpeg">
+        </div>
+       <div >
+          <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+          <p class="vedio-author">SuperSimpleDev</p>
+          <p class="vedio-views">429k views  &#183;</p>
+          <p class="vedio-duration"> 1 month ago</p>
+        </div>
+        </div>
+        </div>
+        <div class="vedio"><div >  
+            <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+        </div>
+        <div class="vedio-info">
+            <div >
+                <img class="author-img" src="author1.jpeg">
+            </div>
+           <div >
+              <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+              <p class="vedio-author">SuperSimpleDev</p>
+              <p class="vedio-views">429k views  &#183;</p>
+              <p class="vedio-duration"> 1 month ago</p>
+            </div>
+            </div>
+            </div>
+            <div class="vedio"><div >  
+                <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+            </div>
+            <div class="vedio-info">
+                <div >
+                    <img class="author-img" src="author1.jpeg">
+                </div>
+               <div >
+                  <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                  <p class="vedio-author">SuperSimpleDev</p>
+                  <p class="vedio-views">429k views  &#183;</p>
+                  <p class="vedio-duration"> 1 month ago</p>
+                </div>
+                </div>
+                </div>
+                <div class="vedio"><div >  
+                    <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+                </div>
+                <div class="vedio-info">
+                    <div >
+                        <img class="author-img" src="author1.jpeg">
+                    </div>
+                   <div >
+                      <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                      <p class="vedio-author">SuperSimpleDev</p>
+                      <p class="vedio-views">429k views  &#183;</p>
+                      <p class="vedio-duration"> 1 month ago</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="vedio"><div >  
+                        <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+                    </div>
+                    <div class="vedio-info">
+                        <div >
+                            <img class="author-img" src="author1.jpeg">
+                        </div>
+                       <div >
+                          <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                          <p class="vedio-author">SuperSimpleDev</p>
+                          <p class="vedio-views">429k views  &#183;</p>
+                          <p class="vedio-duration"> 1 month ago</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="vedio"><div >  
+                            <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+                        </div>
+                        <div class="vedio-info">
+                            <div >
+                                <img class="author-img" src="author1.jpeg">
+                            </div>
+                           <div >
+                              <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                              <p class="vedio-author">SuperSimpleDev</p>
+                              <p class="vedio-views">429k views  &#183;</p>
+                              <p class="vedio-duration"> 1 month ago</p>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="vedio"><div >  
+                                <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+                            </div>
+                            <div class="vedio-info">
+                                <div >
+                                    <img class="author-img" src="author1.jpeg">
+                                </div>
+                               <div >
+                                  <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                                  <p class="vedio-author">SuperSimpleDev</p>
+                                  <p class="vedio-views">429k views  &#183;</p>
+                                  <p class="vedio-duration"> 1 month ago</p>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="vedio"><div >  
+                                    <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+                                </div>
+                                <div class="vedio-info">
+                                    <div >
+                                        <img class="author-img" src="author1.jpeg">
+                                    </div>
+                                   <div >
+                                      <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                                      <p class="vedio-author">SuperSimpleDev</p>
+                                      <p class="vedio-views">429k views  &#183;</p>
+                                      <p class="vedio-duration"> 1 month ago</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="vedio"><div >  
+                                        <img  class="thumbnail1"src="thumbnail1.jpeg"> 
+                                    </div>
+                                    <div class="vedio-info">
+                                        <div >
+                                            <img class="author-img" src="author1.jpeg">
+                                        </div>
+                                       <div >
+                                          <p class="vedio-name">JavaScript Full Course (2023) - Beginner to Pro - Part 1</p>
+                                          <p class="vedio-author">SuperSimpleDev</p>
+                                          <p class="vedio-views">429k views  &#183;</p>
+                                          <p class="vedio-duration"> 1 month ago</p>
+                                        </div>
+                                        </div>
+                                        </div>
+   
+       
+
+    </div>  
+</body>
+</html>
